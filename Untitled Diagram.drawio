@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2020-10-26T01:37:57.165Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" version="13.8.1" etag="733mvQQ_u7WWD6Lz1B4Y" type="github"><diagram id="GQh6kpIy_-WTej3mCI-n">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-26T02:09:52.334Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="Wuf5J94JTazvm_BCtmeW" version="13.8.2" type="github">
+  <diagram id="GQh6kpIy_-WTej3mCI-n" name="Page-1">
+    <mxGraphModel dx="1584" dy="992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Mxq5pc4u43_rECB0qymS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=#507F86;" edge="1" parent="1" source="Mxq5pc4u43_rECB0qymS-10" target="Mxq5pc4u43_rECB0qymS-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mxq5pc4u43_rECB0qymS-10" value="解析jce" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;fontColor=#507F86;" vertex="1" parent="1">
+          <mxGeometry x="30" y="610" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Mxq5pc4u43_rECB0qymS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=#507F86;" edge="1" parent="1" source="Mxq5pc4u43_rECB0qymS-11" target="Mxq5pc4u43_rECB0qymS-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mxq5pc4u43_rECB0qymS-11" value="DataModel" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;fontColor=#507F86;" vertex="1" parent="1">
+          <mxGeometry x="420" y="610" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Mxq5pc4u43_rECB0qymS-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=#507F86;" edge="1" parent="1" source="Mxq5pc4u43_rECB0qymS-13" target="Mxq5pc4u43_rECB0qymS-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mxq5pc4u43_rECB0qymS-13" value="ViewModel" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;fontColor=#507F86;" vertex="1" parent="1">
+          <mxGeometry x="770" y="610" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Mxq5pc4u43_rECB0qymS-14" value="View" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=16;fontColor=#507F86;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="610" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Mxq5pc4u43_rECB0qymS-17" value="后端数据与前端组件拥有对应关系&lt;br style=&quot;font-size: 16px&quot;&gt;通过&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 16px&quot;&gt;viewType&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 16px&quot;&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;获取DataModel&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontColor=#507F86;" vertex="1" parent="1">
+          <mxGeometry x="135" y="690" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mxq5pc4u43_rECB0qymS-18" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-family: &amp;quot;helvetica neue&amp;quot;; background-color: rgb(255, 255, 255); font-size: 16px;&quot;&gt;根据UICompModelType的&lt;span style=&quot;font-size: 16px;&quot;&gt;viewType&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; line-height: normal; font-family: &amp;quot;helvetica neue&amp;quot;; background-color: rgb(255, 255, 255); font-size: 16px;&quot;&gt;,&lt;span style=&quot;font-size: 16px;&quot;&gt;lineType,&lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;innerType&lt;/span&gt;获取对应的ViewModel&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontColor=#507F86;" vertex="1" parent="1">
+          <mxGeometry x="480" y="695" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Mxq5pc4u43_rECB0qymS-19" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34; ; background-color: rgb(255 , 255 , 255) ; font-size: 16px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontColor=#507F86;" vertex="1" parent="1">
+          <mxGeometry x="985" y="715" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Mxq5pc4u43_rECB0qymS-20" value="&lt;span&gt;ViewModel中持有的数据模型填充对应&lt;br&gt;的自定义View&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontColor=#507F86;" vertex="1" parent="1">
+          <mxGeometry x="860" y="705" width="290" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
